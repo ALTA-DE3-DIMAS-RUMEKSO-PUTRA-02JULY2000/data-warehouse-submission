@@ -1,2 +1,12 @@
 Instruksi:
 - jawab soal dan taruh solusi di folder ini!
+
+1. Data warehouse adalah tempat penyimpanan terstruktur dan cocok untuk analisis bisnis.
+Data lake adalah tempat penyimpanan mentah, tidak terstruktur, cocok untuk eksloprasi data.
+
+2. Secara tujuan, OLTP digunakan untuk menangani transaksi harian sedangkan OLAP untuk analisis data besar.
+Secara data, OLTP terstruktur dan fokus pada konsistensi sedangkan OLAP denormalisasi sehingga memudahkan analisis data.
+Secara pola akses, OLTP digunakan untuk transaksional, sering dan kecil sedangkan OLAP digunakan analisis, besar dan kurang sering.
+
+3. RDBMS (Oracle, PostgreSQL, dsb), Data Warehousing Platforms (Google BigQuery, Snowflake, dsb),
+Data Integration Tools (Apache Kafka, Nifi, dsb).
