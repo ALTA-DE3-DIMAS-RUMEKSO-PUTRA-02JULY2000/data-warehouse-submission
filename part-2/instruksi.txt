@@ -1,2 +1,6 @@
 Instruksi:
 - jawab soal dan taruh solusi di folder ini!
+
+5. Data yang dimasukkan ke dalam kedua tabel berjumlah 100000 data.
+Pada tabel biasa tercatat penggunaan memori sebesar 6.6mb sedangkan pada tabel
+columnar tercatat penggunaan memori sebesar 288kb.
