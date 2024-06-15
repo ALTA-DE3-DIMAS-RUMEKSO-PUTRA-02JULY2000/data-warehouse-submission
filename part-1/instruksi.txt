@@ -10,3 +10,9 @@ Secara pola akses, OLTP digunakan untuk transaksional, sering dan kecil sedangka
 
 3. RDBMS (Oracle, PostgreSQL, dsb), Data Warehousing Platforms (Google BigQuery, Snowflake, dsb),
 Data Integration Tools (Apache Kafka, Nifi, dsb).
+
+5. Heap Access lebih cocok untuk aplikasi yang lebih transaksional atau OLTP (Online Transaction Processing)
+yang membutuhkan akses cepat ke data individual atau sebagian kecil dari data yang tersimpan.
+
+Columnar Access: Cocok untuk analisis data atau OLAP (Online Analytical Processing) di mana query sering kali
+memerlukan analisis data agregat atau perhitungan yang melibatkan sebagian besar data dalam kolom tertentu.
