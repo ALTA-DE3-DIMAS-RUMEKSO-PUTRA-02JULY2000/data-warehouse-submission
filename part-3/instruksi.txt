@@ -1,0 +1,14 @@
+Instruksi:
+- jawab soal dan taruh solusi di folder ini!
+
+1. Replication dan sharding memiliki perbedaan utama pada tujuan penggunaan dan implementasi.
+Replication digunakan untuk meningkatkan ketersediaan dan toleransi terhadap kesalahan, sementara
+sharding untuk meningkatkan kinerja dan skalabilitas. Implementasi replication melibatkan salinan data
+yang sama di setiap node, sementara sharding melibatkan data yang terbagi menjadi bagian-bagian yang berbeda
+di antara node-node.
+
+5. Replication digunakan ketika kita ingin mendistribusikan pembacaan data ke node-node replika.
+
+6. Sharding digunakan ketika ukuran data yang dikelola sangat besar dan tidak dapat dihandle oleh salah satu
+server atau node tunggal, sehingga memerlukan distribusi horizontal data untuk meningkatkan kinerja kueri dan kemampuan
+skalabilitas sistem.
